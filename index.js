@@ -25,7 +25,7 @@ function profitAndLossCalculation(initial, quantity, current) {
         } else if (current > initial) {
             const profit = (current - initial) * quantity;
             const profitPercentage = (profit / (initial*quantity)) * 100;
-            showMessage(`Hey! its ${profit} profit and the loss percentage is ${profitPercentage.toFixed(2)}%`);
+            showMessage(`Hey! its ${profit} profit and the profit percentage is ${profitPercentage.toFixed(2)}%`);
             // profit
         } else {
             showMessage(`Hey! that is a no pain no gain`);
