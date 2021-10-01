@@ -15,7 +15,7 @@ checkButton.addEventListener("click", () => {
 
 
 function profitAndLossCalculation(initial, quantity, current) {
-    if (initial && quantity && current > 0) {
+    if (initial >0 && quantity>0 && current >0) {
         if (initial > current) {
             const loss = (initial - current) * quantity;
             const lossPercentage = (loss / (initial*quantity)) * 100;
