@@ -28,10 +28,10 @@ function profitAndLossCalculation(initial, quantity, current) {
             showMessage(`Hey! its ${profit} profit and the profit percentage is ${profitPercentage.toFixed(2)}%`);
             // profit
         } else {
-            showMessage(`Hey! that is a no pain no gain`);
+            showMessage(`Hey! that is a no pain no gain😉`);
         }
     }else{
-        showMessage(`You should fill the given feilds`);
+        showMessage(`Invalid values: Please enter positive values😕`);
     }
 }
 
