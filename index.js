@@ -31,7 +31,7 @@ function profitAndLossCalculation(initial, quantity, current) {
             showMessage(`Hey! that is a no pain no gain😉`);
         }
     }else{
-        showMessage(`Invalid values: Please enter positive values😕`);
+        showMessage(`Input error: please give input in all fields with appropriate values😕`);
     }
 }
 
